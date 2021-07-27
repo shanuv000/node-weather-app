@@ -22,6 +22,7 @@ weatherForm.addEventListener("submit", (e) => {
       msgone.textContent = data.forecastData;
       msgtwo.textContent = data.location;
       document.querySelector("#w-img").src = data.images;
+      document.querySelector("#w-imgs").href = data.images;
       console.log(data.location);
     });
   });
