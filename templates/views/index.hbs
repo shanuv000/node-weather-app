@@ -19,15 +19,16 @@
     
     
     <div class="container bg-light d-flex flex-column ">
-      {{>header}}
+      <div class="d-flex flex-row">{{>header}}</div>
 <h2 class='text-info display-5'>Use this site to get your weather!</h2>
 
-<form>
-  <div class="form-group d-flex ">
-    <input type="text" class="form-control border border-rounded"   aria-describedby="emailHelp" placeholder="Enter address">
-<button type="submit" class="ml-2 btn btn-danger">Submit</button>
+<form class="d-flex flex-row">
+  <img src="" id='w-img' class='mb-3 rounded ' alt=""  width="100px" />
+  <div class="form-group  ">
+    <input type="text" class=" form-control border border-rounded"   aria-describedby="emailHelp" placeholder="Enter address">
+
   </div>
-  
+<button type="submit" class="ml-2 btn-sm btn-danger">Submit</button>  
 </form>
 
 

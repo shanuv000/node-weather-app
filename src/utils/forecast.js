@@ -32,7 +32,8 @@ const forecast = (long, lat, callback) => {
           " and there is " +
           body.current.precip +
           "% chance of rain in " +
-          body.location.name
+          body.location.name,
+        body.current.weather_icons
       );
     }
   });
