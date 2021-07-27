@@ -1,7 +1,7 @@
 const request = require("request");
 
 const forecast = (long, lat, callback) => {
-  const access_key = "aeba2699c87dbff87859bdb68e32bf68";
+  const access_key = "21b1505a7eba2a9206897d8033aeff1b";
   const url =
     "http://api.weatherstack.com/current?access_key=" +
     access_key +
